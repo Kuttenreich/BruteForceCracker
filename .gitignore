@@ -1,4 +1,5 @@
 .vscode*
 build/*
 *.zip
+!testZip.zip
 bin*

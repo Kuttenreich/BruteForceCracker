@@ -10,9 +10,10 @@ Extending the code on further file types, e.g. PDF, was one of the underlying ar
 
 
 ## Setup ##
-- use docker by using the provided start script
+- start docker by using one of the provided start scripts, depending on your OS:
   ```
-  ./startDocker.sh
+  ./startDocker_linux.sh
+  ./startDocker_windows.bat
   ```
   This mounts your currently checked out folder into the docker
 
