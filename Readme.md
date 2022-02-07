@@ -51,3 +51,30 @@ Extending the code on further file types, e.g. PDF, was one of the underlying ar
 - [libzip](https://libzip.org/) (tested with V1.8.0) turned out to be unreliable in checking the validity of a given password  
   Therefore an additional system call to `unzip` checks whether the password really matches
 - here you can find some [lists of popular passwords](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials)   
+
+
+## For Udacity review ##
+
+The given files and lines are not the only examples!
+
+- Loops, Functions, I/O:
+  - Read from file: PwProviderMangerList.h, l.46  
+  - Read user input: main.cpp, l.16  
+  - Functions: PwProviderManagerList.h, l. 16, 30, 35  
+
+- Object Oriented Programming:
+  - Classes: every file (except main.cpp) contains classes  
+  - access specifiers: PwProviderMangerList.h, l.40  
+  - virtual base class functions: EncryptedFile.h, l.10  
+  - Templates: BruteForceCracker.h, l.17  
+  - same function to operate on different parameters: SystemCallValidation.h, l.24  
+
+- Memory Management:
+  - references in function calls:  SystemCallValidation.h, l.25  
+  - move semantics: BruteForceCracker.h, l.58, PwProviderList.h, l.11  
+  - smart pointer: BruteForceCracker.h, l.45  
+  - destructors: EncryptedFileZip.h, l.86  
+
+- Concurrency:
+  - multithreading: BruteForceCracker.h, l.32  
+  - mutex/lock: BruteForceCracker.h, l.58  
